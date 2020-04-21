@@ -16,13 +16,13 @@ First of all, a fault between phase A and ground was created. Then, post fault v
 Upon analysis of current and voltage magnitudes and angles, it was found out that voltage magnitude values would be most optimal for predicting fault location.
 
 Various graphs are shown as following – 
-![Positive sequence value of voltage](3.png)
+![Positive sequence value of voltage](Images/3.png)
 
 
-![3-phase values of fourier transform of voltage](4.png)
+![3-phase values of fourier transform of voltage](Images/4.png)
 
 
-![All sequence values of current](5.png)
+![All sequence values of current](Images/5.png)
 
 
 Various different reading were taken by varying the distance of fault. A total of 1225 reading were taken and the range of fault location was set to be in [0 km, 100 km].
