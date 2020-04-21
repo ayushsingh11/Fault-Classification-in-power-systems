@@ -6,6 +6,9 @@ IEEE_9bus_new_o.slx is the Simulink model used for generating data. After a faul
 Data Generation – 
 For generation of fault data, IEEE 9-bus system was used. 
 
+![Image description](Images/1.png)
+
+
 
 First of all, a fault between phase A and ground was created. Then, post fault values of current and voltage are taken into consideration. The values of their fourier transforms are fed into a positive sequence analyser. 
 
