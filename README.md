@@ -10,7 +10,7 @@ For generation of fault data, IEEE 9-bus system was used.
 
 First of all, a fault between phase A and ground was created. Then, post fault values of current and voltage are taken into consideration. The values of their fourier transforms are fed into a positive sequence analyser. 
 
-![Simlink Model](Images/2.png)
+![Simulink Model](Images/2.png)
 
 
 Upon analysis of current and voltage magnitudes and angles, it was found out that voltage magnitude values would be most optimal for predicting fault location.
